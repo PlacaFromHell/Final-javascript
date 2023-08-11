@@ -1,0 +1,29 @@
+* {margin:0; padding:0; box-sizing: border-box; background-color: black; font-family: Helvetica;} 
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+   }
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+}
+
+.content {
+	color: $blanco;
+	text-align: center;
+	margin-bottom: 1%;
+	font-size: x-large;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 70vh;
+}
+
+.title {
+	color: $naranja;
+	text-align: center;
+}
